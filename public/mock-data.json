@@ -1,0 +1,958 @@
+[
+  {
+    "_id": "e0270ab2-09d0-4a05-8102-461a85f43b7a",
+    "businessDate": "2020-01-02",
+    "grandTotal": 25037,
+    "location": "East",
+    "paymentType": "QR",
+    "member": null
+  },
+  {
+    "_id": "5df29d49-2dda-45b2-9434-4108bca633d6",
+    "businessDate": "2020-01-20",
+    "grandTotal": 18229,
+    "location": "East",
+    "paymentType": "QR",
+    "member": null
+  },
+  {
+    "_id": "4b22cdd7-7b71-461d-ac60-ca547491fd81",
+    "businessDate": "2020-01-16",
+    "grandTotal": 47009,
+    "location": "West",
+    "paymentType": "Cash",
+    "member": {
+      "name": "Heath",
+      "age": 33
+    }
+  },
+  {
+    "_id": "b955007e-dee6-4e64-b90f-5d686cd41d8e",
+    "businessDate": "2020-01-18",
+    "grandTotal": 47202,
+    "location": "South",
+    "paymentType": "MasterCard",
+    "member": {
+      "name": "Miriam",
+      "age": 31
+    }
+  },
+  {
+    "_id": "d23aa4c9-d77f-4446-9a0a-9cf39e05ec88",
+    "businessDate": "2020-01-21",
+    "grandTotal": 24836,
+    "location": "East",
+    "paymentType": "VISA",
+    "member": null
+  },
+  {
+    "_id": "c1a28787-cf54-425e-a0dc-f93b14d98c59",
+    "businessDate": "2020-01-05",
+    "grandTotal": 39818,
+    "location": "Central",
+    "paymentType": "VISA",
+    "member": {
+      "name": "Maryellen",
+      "age": 34
+    }
+  },
+  {
+    "_id": "310264ee-7729-49f6-a92b-eb07f2899fb5",
+    "businessDate": "2020-01-14",
+    "grandTotal": 48301,
+    "location": "East",
+    "paymentType": "VISA",
+    "member": {
+      "name": "Hines",
+      "age": 36
+    }
+  },
+  {
+    "_id": "1cfb1da6-9ff2-4f96-bc3f-008ecc728c72",
+    "businessDate": "2020-01-19",
+    "grandTotal": 26923,
+    "location": "North",
+    "paymentType": "QR",
+    "member": null
+  },
+  {
+    "_id": "7d09cd16-5d4e-4df9-bfa8-4278d36ac870",
+    "businessDate": "2020-01-01",
+    "grandTotal": 15985,
+    "location": "North",
+    "paymentType": "QR",
+    "member": null
+  },
+  {
+    "_id": "4231dbf3-2034-468d-aaf5-b7abc7e570fb",
+    "businessDate": "2020-01-17",
+    "grandTotal": 26207,
+    "location": "South",
+    "paymentType": "VISA",
+    "member": {
+      "name": "Nina",
+      "age": 48
+    }
+  },
+  {
+    "_id": "b6ee3486-f0d3-442b-9c5d-3420261fcf66",
+    "businessDate": "2020-01-26",
+    "grandTotal": 23655,
+    "location": "North",
+    "paymentType": "AliPay",
+    "member": {
+      "name": "Mai",
+      "age": 32
+    }
+  },
+  {
+    "_id": "1b35d709-6508-4f3a-904b-5b13fa6d9aa7",
+    "businessDate": "2020-01-17",
+    "grandTotal": 25204,
+    "location": "North",
+    "paymentType": "QR",
+    "member": {
+      "name": "Jefferson",
+      "age": 25
+    }
+  },
+  {
+    "_id": "7a83f24c-4f6a-4396-bd78-314357f8dffe",
+    "businessDate": "2020-01-04",
+    "grandTotal": 16010,
+    "location": "East",
+    "paymentType": "Cash",
+    "member": {
+      "name": "Norman",
+      "age": 49
+    }
+  },
+  {
+    "_id": "0e5cd36a-e168-4db7-91cb-db467c816721",
+    "businessDate": "2020-01-26",
+    "grandTotal": 43209,
+    "location": "North",
+    "paymentType": "MasterCard",
+    "member": {
+      "name": "Moreno",
+      "age": 25
+    }
+  },
+  {
+    "_id": "c5bad393-39aa-43e6-aadc-3dc543156102",
+    "businessDate": "2020-01-23",
+    "grandTotal": 21090,
+    "location": "North",
+    "paymentType": "Cash",
+    "member": null
+  },
+  {
+    "_id": "1dff7699-3fdc-4d9a-a31a-65d53e84e68a",
+    "businessDate": "2020-01-26",
+    "grandTotal": 26048,
+    "location": "West",
+    "paymentType": "Cash",
+    "member": null
+  },
+  {
+    "_id": "148a49e6-5855-4fb9-8bd9-68aae325710b",
+    "businessDate": "2020-01-28",
+    "grandTotal": 15885,
+    "location": "East",
+    "paymentType": "MasterCard",
+    "member": {
+      "name": "Bonnie",
+      "age": 29
+    }
+  },
+  {
+    "_id": "9f570c4e-be39-473a-b803-1ac70403bbdb",
+    "businessDate": "2020-01-02",
+    "grandTotal": 38590,
+    "location": "West",
+    "paymentType": "AliPay",
+    "member": {
+      "name": "Saunders",
+      "age": 38
+    }
+  },
+  {
+    "_id": "494d4f7f-910d-46dc-bf36-c7ec35bd9bb0",
+    "businessDate": "2020-01-17",
+    "grandTotal": 28936,
+    "location": "North",
+    "paymentType": "VISA",
+    "member": {
+      "name": "Frye",
+      "age": 21
+    }
+  },
+  {
+    "_id": "f695d45a-47ac-4287-bf65-f36b49988950",
+    "businessDate": "2020-01-04",
+    "grandTotal": 16085,
+    "location": "West",
+    "paymentType": "VISA",
+    "member": null
+  },
+  {
+    "_id": "0b3f7947-a3e6-4cee-b5a3-e1944842530f",
+    "businessDate": "2020-01-03",
+    "grandTotal": 29657,
+    "location": "Central",
+    "paymentType": "MasterCard",
+    "member": null
+  },
+  {
+    "_id": "0d0cb1ac-7960-4891-88b4-aada75bb07b0",
+    "businessDate": "2020-01-18",
+    "grandTotal": 38872,
+    "location": "West",
+    "paymentType": "VISA",
+    "member": null
+  },
+  {
+    "_id": "72e82a6a-3092-432e-aa71-baaaab3e929b",
+    "businessDate": "2020-01-29",
+    "grandTotal": 47142,
+    "location": "West",
+    "paymentType": "Cash",
+    "member": {
+      "name": "Prince",
+      "age": 27
+    }
+  },
+  {
+    "_id": "cc59b0ec-6413-4888-8f23-675b6f0a5146",
+    "businessDate": "2020-01-05",
+    "grandTotal": 40543,
+    "location": "East",
+    "paymentType": "Cash",
+    "member": null
+  },
+  {
+    "_id": "a1ce4961-5d5d-4b9b-a950-5f7850c03d1a",
+    "businessDate": "2020-01-21",
+    "grandTotal": 11315,
+    "location": "South",
+    "paymentType": "VISA",
+    "member": {
+      "name": "Amie",
+      "age": 40
+    }
+  },
+  {
+    "_id": "0794c425-a521-472b-9549-f93e4f396ee3",
+    "businessDate": "2020-01-08",
+    "grandTotal": 19612,
+    "location": "Central",
+    "paymentType": "Cash",
+    "member": null
+  },
+  {
+    "_id": "1b3d15cb-e92d-46fb-b60c-aed25d61d047",
+    "businessDate": "2020-01-11",
+    "grandTotal": 21988,
+    "location": "East",
+    "paymentType": "AliPay",
+    "member": null
+  },
+  {
+    "_id": "8c5b22cb-3269-4c24-9854-450314e166f6",
+    "businessDate": "2020-01-13",
+    "grandTotal": 48147,
+    "location": "North",
+    "paymentType": "AliPay",
+    "member": null
+  },
+  {
+    "_id": "ca578783-99d6-4c6f-a5e2-ac7d9a0c2ba6",
+    "businessDate": "2020-01-23",
+    "grandTotal": 23548,
+    "location": "North",
+    "paymentType": "MasterCard",
+    "member": null
+  },
+  {
+    "_id": "80f84181-a167-4ed4-af05-6bf5658c68cc",
+    "businessDate": "2020-01-27",
+    "grandTotal": 22718,
+    "location": "East",
+    "paymentType": "VISA",
+    "member": null
+  },
+  {
+    "_id": "abf33d8c-0b74-4145-9339-adfc5aaa1126",
+    "businessDate": "2020-01-24",
+    "grandTotal": 37463,
+    "location": "West",
+    "paymentType": "AliPay",
+    "member": null
+  },
+  {
+    "_id": "95cbf4b8-823b-444d-b0b5-006276204fdd",
+    "businessDate": "2020-01-25",
+    "grandTotal": 27477,
+    "location": "North",
+    "paymentType": "MasterCard",
+    "member": {
+      "name": "Mercer",
+      "age": 49
+    }
+  },
+  {
+    "_id": "99b40a75-15db-460f-9715-21f774f17ce5",
+    "businessDate": "2020-01-22",
+    "grandTotal": 22437,
+    "location": "West",
+    "paymentType": "VISA",
+    "member": {
+      "name": "Slater",
+      "age": 26
+    }
+  },
+  {
+    "_id": "83d5fc05-c768-4bb1-bca2-b493ad4b84cd",
+    "businessDate": "2020-01-06",
+    "grandTotal": 37786,
+    "location": "North",
+    "paymentType": "AliPay",
+    "member": null
+  },
+  {
+    "_id": "4cd0860f-0569-4084-a2c4-153bb4e44f03",
+    "businessDate": "2020-01-10",
+    "grandTotal": 40286,
+    "location": "Central",
+    "paymentType": "Cash",
+    "member": {
+      "name": "Florence",
+      "age": 50
+    }
+  },
+  {
+    "_id": "031912c5-be57-4ce4-bb6d-ea6c8c8a34d1",
+    "businessDate": "2020-01-25",
+    "grandTotal": 46143,
+    "location": "West",
+    "paymentType": "QR",
+    "member": {
+      "name": "Avila",
+      "age": 47
+    }
+  },
+  {
+    "_id": "126294b6-d314-4b76-a5ff-d8a3de05bf80",
+    "businessDate": "2020-01-28",
+    "grandTotal": 31148,
+    "location": "North",
+    "paymentType": "VISA",
+    "member": {
+      "name": "Vance",
+      "age": 21
+    }
+  },
+  {
+    "_id": "3ede5ead-7c62-4810-8d8b-39461443d3db",
+    "businessDate": "2020-01-06",
+    "grandTotal": 17401,
+    "location": "East",
+    "paymentType": "MasterCard",
+    "member": null
+  },
+  {
+    "_id": "b5abe682-4b9a-4c4f-82e1-881235958509",
+    "businessDate": "2020-01-19",
+    "grandTotal": 46883,
+    "location": "South",
+    "paymentType": "MasterCard",
+    "member": null
+  },
+  {
+    "_id": "78bed1e7-781c-449f-9455-2c5f7c76aea6",
+    "businessDate": "2020-01-13",
+    "grandTotal": 17805,
+    "location": "North",
+    "paymentType": "MasterCard",
+    "member": null
+  },
+  {
+    "_id": "71f70dc8-6d09-4d9e-bbc4-9ca334020112",
+    "businessDate": "2020-01-10",
+    "grandTotal": 49944,
+    "location": "West",
+    "paymentType": "Cash",
+    "member": null
+  },
+  {
+    "_id": "b3998971-63ca-4643-bd4c-fdf0b30cc1bf",
+    "businessDate": "2020-01-18",
+    "grandTotal": 45067,
+    "location": "East",
+    "paymentType": "Cash",
+    "member": null
+  },
+  {
+    "_id": "d60668e5-7f1c-423a-a11b-7aef1eba47c1",
+    "businessDate": "2020-01-28",
+    "grandTotal": 16998,
+    "location": "West",
+    "paymentType": "AliPay",
+    "member": null
+  },
+  {
+    "_id": "e696762c-f4d7-4b41-bd59-05d92a50d7af",
+    "businessDate": "2020-01-06",
+    "grandTotal": 39591,
+    "location": "Central",
+    "paymentType": "VISA",
+    "member": null
+  },
+  {
+    "_id": "5158b75a-d704-48ed-b2ad-4da14d28529f",
+    "businessDate": "2020-01-30",
+    "grandTotal": 17872,
+    "location": "North",
+    "paymentType": "AliPay",
+    "member": null
+  },
+  {
+    "_id": "1f60df32-58b2-4a25-83b3-2177fe2ec8e5",
+    "businessDate": "2020-01-04",
+    "grandTotal": 39643,
+    "location": "North",
+    "paymentType": "AliPay",
+    "member": null
+  },
+  {
+    "_id": "7b4963e1-2e25-448c-aa13-7220707d05ed",
+    "businessDate": "2020-01-26",
+    "grandTotal": 49692,
+    "location": "North",
+    "paymentType": "QR",
+    "member": null
+  },
+  {
+    "_id": "93041646-0768-4083-9117-b66f76dabe9a",
+    "businessDate": "2020-01-09",
+    "grandTotal": 18040,
+    "location": "East",
+    "paymentType": "Cash",
+    "member": {
+      "name": "Odom",
+      "age": 23
+    }
+  },
+  {
+    "_id": "f1e2bad6-9a1e-45dc-9ce9-3ff67219c7b7",
+    "businessDate": "2020-01-08",
+    "grandTotal": 34849,
+    "location": "Central",
+    "paymentType": "QR",
+    "member": null
+  },
+  {
+    "_id": "946c3c43-2813-4950-a02f-8fd821db288e",
+    "businessDate": "2020-01-20",
+    "grandTotal": 16904,
+    "location": "South",
+    "paymentType": "VISA",
+    "member": {
+      "name": "Antonia",
+      "age": 22
+    }
+  },
+  {
+    "_id": "2df25141-a1b0-431c-93e9-1b5a9051e4a0",
+    "businessDate": "2020-01-25",
+    "grandTotal": 18686,
+    "location": "North",
+    "paymentType": "Cash",
+    "member": {
+      "name": "Kathleen",
+      "age": 47
+    }
+  },
+  {
+    "_id": "304613e4-379c-481a-bbf5-95d3d2b280bd",
+    "businessDate": "2020-01-03",
+    "grandTotal": 10739,
+    "location": "West",
+    "paymentType": "Cash",
+    "member": {
+      "name": "Potter",
+      "age": 21
+    }
+  },
+  {
+    "_id": "cc38f2de-4175-4d5c-9ed2-147b5c92a75b",
+    "businessDate": "2020-01-29",
+    "grandTotal": 16622,
+    "location": "Central",
+    "paymentType": "AliPay",
+    "member": {
+      "name": "Lydia",
+      "age": 46
+    }
+  },
+  {
+    "_id": "3723705f-b5cf-441a-af92-138358cbef28",
+    "businessDate": "2020-01-09",
+    "grandTotal": 10389,
+    "location": "East",
+    "paymentType": "Cash",
+    "member": null
+  },
+  {
+    "_id": "7d85076a-745f-4397-bbe5-4d356e30fa2e",
+    "businessDate": "2020-01-27",
+    "grandTotal": 20958,
+    "location": "Central",
+    "paymentType": "Cash",
+    "member": null
+  },
+  {
+    "_id": "2464938f-e2d5-4d1d-8477-d3ae87e2e598",
+    "businessDate": "2020-01-22",
+    "grandTotal": 26852,
+    "location": "South",
+    "paymentType": "VISA",
+    "member": null
+  },
+  {
+    "_id": "e0319e5c-99b8-4f89-8fdf-faa8a315cb45",
+    "businessDate": "2020-01-11",
+    "grandTotal": 39990,
+    "location": "North",
+    "paymentType": "Cash",
+    "member": {
+      "name": "Bernard",
+      "age": 33
+    }
+  },
+  {
+    "_id": "a64d28fc-bf2f-4f54-9bb1-329d81ec64ed",
+    "businessDate": "2020-01-01",
+    "grandTotal": 47830,
+    "location": "South",
+    "paymentType": "VISA",
+    "member": {
+      "name": "Elba",
+      "age": 36
+    }
+  },
+  {
+    "_id": "e670f081-f6ae-4fae-9f6f-a413fa59b581",
+    "businessDate": "2020-01-02",
+    "grandTotal": 43728,
+    "location": "Central",
+    "paymentType": "QR",
+    "member": {
+      "name": "Haley",
+      "age": 30
+    }
+  },
+  {
+    "_id": "496719bb-1f03-4f9e-ba23-2fdc7ddde5ae",
+    "businessDate": "2020-01-24",
+    "grandTotal": 48385,
+    "location": "Central",
+    "paymentType": "AliPay",
+    "member": {
+      "name": "Hartman",
+      "age": 29
+    }
+  },
+  {
+    "_id": "a5d97289-db1b-4ae1-93ef-3cce77694faf",
+    "businessDate": "2020-01-13",
+    "grandTotal": 36666,
+    "location": "West",
+    "paymentType": "AliPay",
+    "member": null
+  },
+  {
+    "_id": "60942211-2998-4b22-b76a-27e43a9b8bff",
+    "businessDate": "2020-01-13",
+    "grandTotal": 10414,
+    "location": "East",
+    "paymentType": "QR",
+    "member": {
+      "name": "Emilia",
+      "age": 24
+    }
+  },
+  {
+    "_id": "79fbd745-88c6-41b0-a0a5-217d0cd92afd",
+    "businessDate": "2020-01-06",
+    "grandTotal": 44805,
+    "location": "South",
+    "paymentType": "QR",
+    "member": {
+      "name": "Willa",
+      "age": 32
+    }
+  },
+  {
+    "_id": "2436d8a8-365b-4fc1-ba7f-4ea729218945",
+    "businessDate": "2020-01-21",
+    "grandTotal": 33645,
+    "location": "East",
+    "paymentType": "MasterCard",
+    "member": {
+      "name": "Ina",
+      "age": 40
+    }
+  },
+  {
+    "_id": "62e0249f-8979-41b8-8448-0e2d73f8d4ad",
+    "businessDate": "2020-01-28",
+    "grandTotal": 25174,
+    "location": "East",
+    "paymentType": "QR",
+    "member": {
+      "name": "Duffy",
+      "age": 39
+    }
+  },
+  {
+    "_id": "5313c780-d3a1-4e7e-9c5e-7f61411b9bac",
+    "businessDate": "2020-01-17",
+    "grandTotal": 29988,
+    "location": "Central",
+    "paymentType": "QR",
+    "member": {
+      "name": "Dennis",
+      "age": 40
+    }
+  },
+  {
+    "_id": "a1e438ab-fe2d-440a-8689-37201aea6f46",
+    "businessDate": "2020-01-24",
+    "grandTotal": 47808,
+    "location": "Central",
+    "paymentType": "QR",
+    "member": null
+  },
+  {
+    "_id": "c5fa3c61-1f80-4bc6-9da4-4ea146f6c867",
+    "businessDate": "2020-01-24",
+    "grandTotal": 31025,
+    "location": "East",
+    "paymentType": "QR",
+    "member": {
+      "name": "Velez",
+      "age": 40
+    }
+  },
+  {
+    "_id": "2833606a-19f8-4b2d-9cbe-8e3fc3e22eb9",
+    "businessDate": "2020-01-17",
+    "grandTotal": 35932,
+    "location": "East",
+    "paymentType": "AliPay",
+    "member": {
+      "name": "Herminia",
+      "age": 40
+    }
+  },
+  {
+    "_id": "7ad25ded-bfb1-48d9-8f07-93e02a089390",
+    "businessDate": "2020-01-04",
+    "grandTotal": 36781,
+    "location": "North",
+    "paymentType": "QR",
+    "member": {
+      "name": "Drake",
+      "age": 26
+    }
+  },
+  {
+    "_id": "d875634b-6cfc-46f1-8b19-c9fbb673343b",
+    "businessDate": "2020-01-01",
+    "grandTotal": 32118,
+    "location": "South",
+    "paymentType": "MasterCard",
+    "member": {
+      "name": "Isabelle",
+      "age": 35
+    }
+  },
+  {
+    "_id": "b6890078-72b9-4b62-ba4f-e2500e04ac15",
+    "businessDate": "2020-01-12",
+    "grandTotal": 28471,
+    "location": "East",
+    "paymentType": "AliPay",
+    "member": null
+  },
+  {
+    "_id": "13215e91-9fcb-46c3-ad94-3a098cf28fac",
+    "businessDate": "2020-01-28",
+    "grandTotal": 20319,
+    "location": "West",
+    "paymentType": "AliPay",
+    "member": {
+      "name": "Lester",
+      "age": 33
+    }
+  },
+  {
+    "_id": "bc2eff1e-1c61-465a-8be0-01ab9b6f86d6",
+    "businessDate": "2020-01-28",
+    "grandTotal": 14001,
+    "location": "East",
+    "paymentType": "MasterCard",
+    "member": null
+  },
+  {
+    "_id": "9edad5e4-edb0-4c39-8004-55f632ec7575",
+    "businessDate": "2020-01-27",
+    "grandTotal": 30056,
+    "location": "East",
+    "paymentType": "Cash",
+    "member": {
+      "name": "Lynch",
+      "age": 42
+    }
+  },
+  {
+    "_id": "f99cafea-a78e-4c4b-89c9-70f7663c3977",
+    "businessDate": "2020-01-15",
+    "grandTotal": 31020,
+    "location": "West",
+    "paymentType": "AliPay",
+    "member": {
+      "name": "Spears",
+      "age": 21
+    }
+  },
+  {
+    "_id": "546164f9-f197-455e-92f0-9aa941d0601e",
+    "businessDate": "2020-01-29",
+    "grandTotal": 48663,
+    "location": "North",
+    "paymentType": "QR",
+    "member": null
+  },
+  {
+    "_id": "92c838af-9cb5-4678-8838-c1f9f7bcccff",
+    "businessDate": "2020-01-16",
+    "grandTotal": 15246,
+    "location": "West",
+    "paymentType": "AliPay",
+    "member": {
+      "name": "Lou",
+      "age": 32
+    }
+  },
+  {
+    "_id": "d3f9f358-de66-44fd-95c8-5f37cc8a5757",
+    "businessDate": "2020-01-29",
+    "grandTotal": 39177,
+    "location": "West",
+    "paymentType": "MasterCard",
+    "member": {
+      "name": "Hannah",
+      "age": 43
+    }
+  },
+  {
+    "_id": "cf19e258-ced1-427f-91b7-b263acaaa40f",
+    "businessDate": "2020-01-21",
+    "grandTotal": 29755,
+    "location": "Central",
+    "paymentType": "Cash",
+    "member": {
+      "name": "Marietta",
+      "age": 42
+    }
+  },
+  {
+    "_id": "c6b9747d-90bc-46fe-b9bc-d2cf805163df",
+    "businessDate": "2020-01-01",
+    "grandTotal": 48854,
+    "location": "Central",
+    "paymentType": "QR",
+    "member": {
+      "name": "Mcdowell",
+      "age": 29
+    }
+  },
+  {
+    "_id": "61adb22b-8203-4c91-b6ea-4db485258961",
+    "businessDate": "2020-01-11",
+    "grandTotal": 25650,
+    "location": "West",
+    "paymentType": "MasterCard",
+    "member": null
+  },
+  {
+    "_id": "3c92eae0-25d1-4943-8709-d3824c3dd663",
+    "businessDate": "2020-01-12",
+    "grandTotal": 30295,
+    "location": "West",
+    "paymentType": "VISA",
+    "member": null
+  },
+  {
+    "_id": "ec7b9858-6915-4f6d-a45e-23c3f72e8d4f",
+    "businessDate": "2020-01-28",
+    "grandTotal": 32363,
+    "location": "Central",
+    "paymentType": "QR",
+    "member": null
+  },
+  {
+    "_id": "284a20c1-0c3c-46fc-a5a1-5c431960578a",
+    "businessDate": "2020-01-24",
+    "grandTotal": 32480,
+    "location": "Central",
+    "paymentType": "Cash",
+    "member": null
+  },
+  {
+    "_id": "cfc64ead-fba1-4a74-b133-4a22d3c5035d",
+    "businessDate": "2020-01-17",
+    "grandTotal": 21832,
+    "location": "South",
+    "paymentType": "VISA",
+    "member": null
+  },
+  {
+    "_id": "e67e7d7f-b051-498b-8013-038cdd85d80a",
+    "businessDate": "2020-01-26",
+    "grandTotal": 25339,
+    "location": "South",
+    "paymentType": "Cash",
+    "member": null
+  },
+  {
+    "_id": "e4680440-f4a1-4e56-80e1-2da61c04d28b",
+    "businessDate": "2020-01-30",
+    "grandTotal": 26982,
+    "location": "East",
+    "paymentType": "QR",
+    "member": {
+      "name": "Koch",
+      "age": 20
+    }
+  },
+  {
+    "_id": "ef207771-2314-4b7a-95b0-e874ba92b168",
+    "businessDate": "2020-01-26",
+    "grandTotal": 26781,
+    "location": "North",
+    "paymentType": "MasterCard",
+    "member": {
+      "name": "Schultz",
+      "age": 32
+    }
+  },
+  {
+    "_id": "dd6a7cde-531b-47e5-ba3e-e047ce223960",
+    "businessDate": "2020-01-12",
+    "grandTotal": 45223,
+    "location": "West",
+    "paymentType": "QR",
+    "member": {
+      "name": "Bobbi",
+      "age": 47
+    }
+  },
+  {
+    "_id": "94f3a2d6-fb6f-49b9-a9f1-40d6eb0f083e",
+    "businessDate": "2020-01-19",
+    "grandTotal": 21917,
+    "location": "West",
+    "paymentType": "MasterCard",
+    "member": {
+      "name": "Adrienne",
+      "age": 37
+    }
+  },
+  {
+    "_id": "7d96e6d9-7663-4246-bdad-3fa8aa5e20b6",
+    "businessDate": "2020-01-27",
+    "grandTotal": 32936,
+    "location": "West",
+    "paymentType": "MasterCard",
+    "member": null
+  },
+  {
+    "_id": "9c36e3ab-ec01-4486-8245-768c8591e93e",
+    "businessDate": "2020-01-19",
+    "grandTotal": 29347,
+    "location": "Central",
+    "paymentType": "MasterCard",
+    "member": {
+      "name": "Trujillo",
+      "age": 49
+    }
+  },
+  {
+    "_id": "076ff749-9326-47a1-b001-3e09ba3a7a74",
+    "businessDate": "2020-01-12",
+    "grandTotal": 10532,
+    "location": "Central",
+    "paymentType": "AliPay",
+    "member": null
+  },
+  {
+    "_id": "8e71a944-451b-45df-9e1d-6bc8977ff0b9",
+    "businessDate": "2020-01-25",
+    "grandTotal": 45670,
+    "location": "East",
+    "paymentType": "MasterCard",
+    "member": {
+      "name": "John",
+      "age": 37
+    }
+  },
+  {
+    "_id": "641440c7-609a-4c9c-9c30-e39e42fbbc0c",
+    "businessDate": "2020-01-10",
+    "grandTotal": 28290,
+    "location": "South",
+    "paymentType": "AliPay",
+    "member": null
+  },
+  {
+    "_id": "5ec296f6-a20d-4dc7-86df-d1049aac197f",
+    "businessDate": "2020-01-21",
+    "grandTotal": 16156,
+    "location": "North",
+    "paymentType": "AliPay",
+    "member": null
+  },
+  {
+    "_id": "9b10146d-10e1-48e4-96e8-1993f4e92613",
+    "businessDate": "2020-01-22",
+    "grandTotal": 19254,
+    "location": "Central",
+    "paymentType": "Cash",
+    "member": {
+      "name": "Lauren",
+      "age": 39
+    }
+  },
+  {
+    "_id": "682ae4b9-f3a1-4542-9ee7-e06aa89582ce",
+    "businessDate": "2020-01-22",
+    "grandTotal": 32342,
+    "location": "West",
+    "paymentType": "VISA",
+    "member": {
+      "name": "Taylor",
+      "age": 28
+    }
+  },
+  {
+    "_id": "1bbed607-c115-4a0b-929f-77ba5ad9fc76",
+    "businessDate": "2020-01-25",
+    "grandTotal": 28626,
+    "location": "South",
+    "paymentType": "Cash",
+    "member": null
+  }
+]
