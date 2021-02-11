@@ -96,30 +96,43 @@ function App() {
   allTypeOfPayment = [...new Set(allTypeOfPayment)];
   let summarySalesByLocation = [];
   for (let i = 0; i < location.length; i++) {
-    const BillsByLocation = datas.filter((data) => data.location === location[i]);
+    const billsByLocation = datas.filter((data) => data.location === location[i]);
 
     let paymentTerm = [];
     for (let j = 0; j < allTypeOfPayment.length; j++) {
+      const billsByPaymentType = billsByLocation.filter((doc) => doc.paymentType === allTypeOfPayment[j]);
+      const amountBills = billsByPaymentType.length;
+      const total = billsByPaymentType.reduce((acc, bill) => {
+        return acc + bill.grandTotal;
+      }, 0);
+      const avgPerBill = total / amountBills;
+
       paymentTerm.push({
         type: allTypeOfPayment[j],
-        total: BillsByLocation.filter((doc) => doc.paymentType === allTypeOfPayment[j])
-          .reduce((acc, bill) => {
-            return acc + bill.grandTotal;
-          }, 0)
-          .toLocaleString('en'),
+        amountBills: amountBills,
+        total: total.toLocaleString('en'),
+        avgPerBill: Number(avgPerBill.toFixed(0)).toLocaleString('en'),
       });
     }
 
     summarySalesByLocation.push({
       location: location[i],
-      totalSales: BillsByLocation.reduce((acc, bill) => {
-        return acc + bill.grandTotal;
-      }, 0).toLocaleString('en'),
-      amountBills: BillsByLocation.length,
+      totalSales: billsByLocation
+        .reduce((acc, bill) => {
+          return acc + bill.grandTotal;
+        }, 0)
+        .toLocaleString('en'),
+      amountBills: billsByLocation.length,
+      avgPerBill:
+        billsByLocation
+          .reduce((acc, bill) => {
+            return acc + bill.grandTotal;
+          }, 0)
+          .toLocaleString('en') / billsByLocation.length,
       paymentType: paymentTerm,
     });
   }
-  console.log('Ans8 : ', summarySalesByLocation);
+  // console.log('Ans8 : ', summarySalesByLocation);
 
   return (
     <Container className="App py-2">
@@ -202,10 +215,10 @@ function App() {
               <Card.Header className="text-start" style={{ backgroundColor: '#cfe2ff' }}>
                 <p className="m-0">6 how much total sales group by locations.</p>
               </Card.Header>
-              <Card.Body>
+              <Card.Body className="p-1">
                 <blockquote className="blockquote mb-0">
                   <p className="text-start m-1 text-secondary">Sales by Location</p>
-                  <Table responsive="xs">
+                  <Table className="m-0">
                     {/* <thead>
                               <tr>
                                 <th>Location</th>
@@ -233,10 +246,10 @@ function App() {
               <Card.Header className="text-start" style={{ backgroundColor: '#cfe2ff' }}>
                 <p className="m-0">7 how much total sales in each date.</p>
               </Card.Header>
-              <Card.Body>
+              <Card.Body className="p-1">
                 <blockquote className="blockquote mb-0">
                   <p className="text-start">Sales by Date</p>
-                  <Table size="sm">
+                  <Table size="sm" striped className="m-0">
                     {/* <thead>
                               <tr>
                                 <th>Date</th>
@@ -266,41 +279,31 @@ function App() {
             <p className="text-start mt-2">Summary Sales By Location</p>
 
             {summarySalesByLocation.map((data, i) => (
-              <Card className="my-3" key={`${data.location}-card`}>
-                <Card.Header className="text-start fw-bold fs-3">
+              <Card className="my-3" key={`${data.location}-card`} wrap>
+                <Card.Header className="text-start fw-bold fs-4">
                   <p className="m-0">{data.location}</p>
                 </Card.Header>
-                <Card.Body>
-                  <blockquote className="blockquote mb-0">
-                    <Table size="sm">
-                      <thead>
-                        <tr>
-                          <th>Payment Type</th>
-                          <th>Sales</th>
+                <Card.Body className="p-0">
+                  <Table size="sm" className="m-0">
+                    <thead>
+                      <tr>
+                        <th>Type</th>
+                        <th>Sales</th>
+                        <th>Bills</th>
+                        <th>Avg/Bill</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {data.paymentType.map((payment) => (
+                        <tr key={`${data.location}-paymentType-${payment.type}`}>
+                          <td className="text-center">{payment.type}</td>
+                          <td>{payment.total}</td>
+                          <td>{payment.amountBills}</td>
+                          <td>{payment.avgPerBill}</td>
                         </tr>
-                      </thead>
-                      <tbody>
-                        {data.paymentType.map((payment) => (
-                          <tr key={`${data.location}-paymentType-${payment.type}`}>
-                            <td className="text-center">{payment.type}</td>
-                            <td>{payment.total}</td>
-                          </tr>
-                        ))}
-                        <tr key={`row-${i}`}>
-                          <th className="text-center" style={{ width: '50%' }}>
-                            Grand Total
-                          </th>
-                          <th className="text-center text-success">{data.totalSales}</th>
-                        </tr>
-                        <tr key={`row-${i}`}>
-                          <th className="text-center" style={{ width: '50%' }}>
-                            Amount Bills
-                          </th>
-                          <th className="text-center text-success">{data.amountBills}</th>
-                        </tr>
-                      </tbody>
-                    </Table>
-                  </blockquote>
+                      ))}
+                    </tbody>
+                  </Table>
                 </Card.Body>
               </Card>
             ))}
