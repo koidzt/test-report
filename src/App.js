@@ -89,12 +89,6 @@ function App() {
     return dateA - dateB;
   });
 
-  //Formatted Date
-  const months = ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC'];
-  const formatted_date = (date) => {
-    return date.getDate() + '-' + months[date.getMonth()] + '-' + date.getFullYear();
-  };
-
   // console.log('Ans7 : ', totalSalesByDate);
 
   //and8
@@ -252,9 +246,7 @@ function App() {
                     <tbody>
                       {totalSalesByDate.map((data, i) => (
                         <tr key={`row-${i}`}>
-                          <td className="text-center" style={{ width: '50%' }}>
-                            {formatted_date(new Date(data.billDate))}
-                          </td>
+                          <td className="text-end">{new Date(data.billDate).toUTCString().slice(0, 16)}</td>
                           <td className="text-center text-success">{data.grandTotal}</td>
                         </tr>
                       ))}
