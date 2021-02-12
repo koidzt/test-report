@@ -70,6 +70,7 @@ function App() {
   //ans7
   const dateEachBill = datas.map((data) => data.businessDate);
   const allDateOfBill = [...new Set(dateEachBill)];
+
   let totalSalesByDate = [];
   for (let i = 0; i < allDateOfBill.length; i++) {
     totalSalesByDate.push({
@@ -81,6 +82,16 @@ function App() {
         }, 0)
         .toLocaleString('en'),
     });
+  }
+  for (let i = 1; i <= 31; i++) {
+    const indTarget = totalSalesByDate.findIndex((data) => new Date(data.billDate).getDate() === i);
+    const day = i < 10 ? `0${i}` : `${i}`;
+    if (indTarget === -1) {
+      totalSalesByDate.push({
+        billDate: '2020-01-' + day,
+        grandTotal: '0',
+      });
+    }
   }
   //Sort By Date
   totalSalesByDate = totalSalesByDate.slice().sort((a, b) => {
