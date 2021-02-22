@@ -68,15 +68,42 @@ function App() {
   // console.log('Ans6 : ', totalSalesByLocation);
 
   //ans7
-  const dateEachBill = datas.map((data) => data.businessDate);
-  const allDateOfBill = [...new Set(dateEachBill)];
+  const getAllDateInMonth = (bills) => {
+    const monthOfBills = datas.map(
+      (data) => `${new Date(data.businessDate).getFullYear()}-${new Date(data.businessDate).getMonth() + 1}`
+    );
+    console.log(monthOfBills);
+    const targetMonth = [...new Set(monthOfBills)][0];
+    console.log(targetMonth);
+
+    const year = new Date(targetMonth).getFullYear();
+    let month = new Date(targetMonth).getMonth() + 1;
+    let days;
+
+    if (month === 2 && year % 4 !== 0) days = 28;
+    else if (month === 2 && year % 4 === 0) days = 29;
+    else if (month === 4 || month === 6 || month === 9 || month === 11) days = 30;
+    else days = 31;
+
+    if (month < 10) month = '0' + month;
+
+    let allDateInMonthOfBills = [];
+    for (let i = 1; i <= days; i++) {
+      if (i < 10) allDateInMonthOfBills.push(`${year}-${month}-0${i}`);
+      else allDateInMonthOfBills.push(`${year}-${month}-${i}`);
+    }
+
+    return allDateInMonthOfBills;
+  };
+
+  const monthSet = getAllDateInMonth(datas);
 
   let totalSalesByDate = [];
-  for (let i = 0; i < allDateOfBill.length; i++) {
+  for (let i = 0; i < monthSet.length; i++) {
     totalSalesByDate.push({
-      billDate: allDateOfBill[i],
+      billDate: monthSet[i],
       grandTotal: datas
-        .filter((data) => data.businessDate === allDateOfBill[i])
+        .filter((data) => data.businessDate === monthSet[i])
         .reduce((acc, bill) => {
           return acc + bill.grandTotal;
         }, 0)
